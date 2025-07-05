@@ -23,6 +23,32 @@ A smart hospital monitoring system using DL Streamer to detect people, vehicles,
 - Ubuntu 22.04
 - Diagnostic tools: `htop`, `intel_gpu_top`, `iotop`
 
+## 🛠️ Example Inference Pipeline (DL Streamer)
+This pipeline demonstrates real-time video analytics using Intel® DL Streamer and OpenVINO™, running on the GPU. It performs end-to-end object detection and vehicle classification on an input video using optimized Intel models.
+
+```bash
+gst-launch-1.0 filesrc location=sample_video.mp4 ! \
+decodebin ! videoconvert ! \
+gvadetect model=person-vehicle-bike-detection-2000.xml device=GPU ! \
+gvaclassify model=vehicle-attributes-recognition-barrier-0039.xml device=GPU ! \
+gvawatermark ! videoconvert ! fpsdisplaysink
+
+🎯 What It Does
+1. Reads a video file (sample_video.mp4)
+2. Detects people, vehicles, and bikes using gvadetect
+3. Classifies vehicle attributes (type, color) using gvaclassify
+4. Overlays bounding boxes and attribute labels in real time
+5. Displays FPS and rendering stats using fpsdisplaysink
+
+### 📈 Sample Terminal Output
+
+frame: 226 drop: 2 fps: 18.03 avg_fps: 17.94
+frame: 227 drop: 2 fps: 17.95 avg_fps: 17.94
+frame: 228 drop: 2 fps: 17.92 avg_fps: 17.94
+
+✅ This confirms the pipeline sustains ~18 FPS throughput — well above the real-time threshold (10 FPS) defined in the project benchmarks.
+
+
 ## 📊 Benchmark Summary
 
 | Mode | Max Streams | Avg FPS/Stream | Bottleneck |
