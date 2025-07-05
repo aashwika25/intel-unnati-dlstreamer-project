@@ -82,3 +82,4 @@ Intel_Unnati_Aashwika_Khurana.pdf – Final project report
 GITAM, Hyderabad  
 Email: akhurana@gitam.in
 
+📄 This project is licensed under the [MIT License](LICENSE).
