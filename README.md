@@ -23,6 +23,11 @@ A smart hospital monitoring system using DL Streamer to detect people, vehicles,
 - Ubuntu 22.04
 - Diagnostic tools: `htop`, `intel_gpu_top`, `iotop`
 
+**📊 Output Snapshot**
+![output snapshot](images/output%20snapshot.png)
+
+📎 Additional sample outputs and benchmarks available in the [`/images/`](images/) folder and [Final Report](report/Intel_Unnati_Final_Report_AashwikaKhurana.pdf).
+
 ## 🛠️ Example Inference Pipeline (DL Streamer)
 This pipeline demonstrates real-time video analytics using Intel® DL Streamer and OpenVINO™, running on the GPU. It performs end-to-end object detection and vehicle classification on an input video using optimized Intel models.
 
