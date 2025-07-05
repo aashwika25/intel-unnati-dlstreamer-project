@@ -1,5 +1,7 @@
 # Intel Unnati DL Streamer Project – Aashwika Khurana
 
+![Header](images/Header.png)
+
 ## 🎯 Problem Statement
 Create a pipeline (detect, decode and classification) using DL Streamer and define system scalability for Intel HW.
 
