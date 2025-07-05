@@ -38,11 +38,14 @@ A smart hospital monitoring system using DL Streamer to detect people, vehicles,
 - IO becomes bottleneck beyond 4 streams.
 - Tools like `htop`, `intel_gpu_top`, and `iotop` help diagnose performance.
 
-### 📊 Performance Snapshot
-![Alt Text](images/performance comparision chart.png)
+## 📊 Performance Snapshot
 
-### 💡 Bottleneck Analysis
-![Alt Text](images/Bottleneck Source Breakdown.png)
+![Performance Comparison Chart](images/performance%20comparision%20chart.png)
+
+## 💡 Bottleneck Analysis
+
+![Bottleneck Source Breakdown](images/Bottleneck%20Source%20Breakdown.png)
+
 
 ## 👤 Author
 **Aashwika Khurana**  
