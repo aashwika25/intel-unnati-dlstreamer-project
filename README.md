@@ -40,11 +40,11 @@ A smart hospital monitoring system using DL Streamer to detect people, vehicles,
 
 ### 📊 Performance Snapshot
 
-![Performance Chart](images/performance_chart.png)
+images/performance comparision chart.png
 
 ### 💡 Bottleneck Analysis
 
-![Bottleneck Pie Chart](images/bottleneck_pie.png)
+images/Bottleneck Source Breakdown.png
 
 
 ## 👤 Author
