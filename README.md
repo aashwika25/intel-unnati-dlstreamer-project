@@ -39,13 +39,10 @@ A smart hospital monitoring system using DL Streamer to detect people, vehicles,
 - Tools like `htop`, `intel_gpu_top`, and `iotop` help diagnose performance.
 
 ### 📊 Performance Snapshot
-
-images/performance comparision chart.png
+![Alt Text](images/performance comparision chart.png)
 
 ### 💡 Bottleneck Analysis
-
-images/Bottleneck Source Breakdown.png
-
+![Alt Text](images/Bottleneck Source Breakdown.png)
 
 ## 👤 Author
 **Aashwika Khurana**  
