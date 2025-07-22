@@ -1,4 +1,7 @@
 # Intel Unnati DL Streamer Project – Aashwika Khurana
+![Intel DL Streamer Project](https://img.shields.io/badge/Intel--Unnati-DLStreamer-blue)
+![FPS](https://img.shields.io/badge/FPS-17.94%20avg-success)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 ![Header](images/Header.png)
 
@@ -23,7 +26,7 @@ A smart hospital monitoring system using DL Streamer to detect people, vehicles,
 - Ubuntu 22.04
 - Diagnostic tools: `htop`, `intel_gpu_top`, `iotop`
 
-**📊 Output Snapshot**
+## 📊 Output Snapshot
 ![output snapshot](images/output%20snapshot.png)
 
 📎 Additional sample outputs and benchmarks available in the [`/images/`](images/) folder and [Final Report](report/Intel_Unnati_Final_Report_AashwikaKhurana.pdf).
